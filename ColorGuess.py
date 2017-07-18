@@ -8,7 +8,7 @@ import random
 print('What is your name?')
 name = input()
 
-print('Well, ' + name + ', I am thinking of one of the rainbow colors. Can you guess it in 3 guesses? Guess a color of the rainbow.')
+print('Well, ' + name + ', I am thinking of one of the rainbow colors. Can you guess it in 3 guesses?')
 
 rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'purple']
 colorIndex = random.randint(1, 6)
